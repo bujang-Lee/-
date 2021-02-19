@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>이원석의 페이지</title>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E3TCE7ZECV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E3TCE7ZECV');
+    </script>
+  </head>
+  
+  <body>
+    <h1>안녕하세요!<br>무엇을 하고 싶으신가요?</h1>
+    <p><a href="./doseobu" title="도서부">도서부</a></p>
+    <p><a href="./jangyuhigh" target="_blank" >장유고등학교</a></p>
+    
+    <form>
+      <label for="name">What is your name? : </label>
+      <input type="text" name="name" value="Hello World!" id="name">
+      
+      <br><label for="user-pw">Password : </label>
+      <input type="password" name="user-pw" id="user-pw">
+      
+      <br><label for="age">age : </label>
+      <input id="age" name="age" type="number"  step="1">  <!-- type, step 같이 적기 -->
+      
+      <br><label for="volume">volume : </label>
+      <input id="volume" type="range" min="0" max="10" step="1">
+      
+      <div>
+        <br><p>사실인 것을 고르시오</p>
+        <label for="Seoul">한국은 서울의 수도이다.</label>
+        <input id="Seoul" name="true" type="checkbox" value="Seoul">
+        <br><label for="apple">애플은 바보다.</label>
+        <input id="apple" name="true" type="checkbox" value="apple">
+        <br><label for="god">신은 존재한다.</label>
+        <input id="god" name="true" type="checkbox" value="god">
+      <div>
+        
+        <div>
+          <p>얼~마-나 기다렸-나~ 지금 이 순간을 고~대하~면~서-(단위 : hour)</p>
+            <input type="radio" id="one" name="time" value="1">
+              <label for="one">1</label>
+            <input type="radio" id="two" name="time" value="2">
+              <label for="two">2</label>
+        </div>
+        
+        <div>
+          <label for="number">숫자 하나 골라보시오!</label>
+            <select id="number" name="time">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+          </select>
+        </div>
+        
+        <div>
+          <label for="food">좋아하는 음식 골라보거라</label>
+            <input list="foods" name="food">
+               <datalist id="foods">
+                 <option value="chicken"></option>
+                 <option value="pizza"></option>
+                 <option value="beef"></option>
+               </datalist>
+        </div>
+        
+        <div>
+          <label for="feeling">이 페이지를 보고 느낀 점을 서술하시오.(5조5억점)</label>
+            <br><textarea id="feeling" name="feeling" row="5" cols="30">어땠어?</textarea>
+        </div>
+        
+        <div>
+          <input type="submit" value="제출">
+        </div>
+    </form>
+    
+    <!--<form action="check.html" method="POST"></form>  -->  
+        
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2"></th>
+          <th colspan="2">1</th>
+          <th colspan="2">2</th>
+        </tr>
+       </thead>
+      <tbody>
+        <tr>
+          <th colspan="2">3</th>
+          <td rowspan="3">3</td>
+          <td colspan="3">5</td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <th>9</th>
+          <td rowspan="2"></td>
+          <td colspan="2">6</td>
+        </tr>
+        <tr>
+          <th colspan="2">7</td>
+          <td colspan="2">4</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_knwDGvJDVs" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </p>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/60277bc39c4f165d47c2df7a/1eud3mtr1';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+  </body>
+</html>
