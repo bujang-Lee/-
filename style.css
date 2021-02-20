@@ -1,3 +1,35 @@
-td {
-  font-size: 18px;
-}
+    body {
+      margin:0px;
+    }
+    h1 {
+      border-bottom:1px solid gray;
+      text-align:center;
+      padding:20px;
+      margin:0px;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns:180px 1fr;
+    }
+    #grid ol {
+      border-right:1px solid gray;
+      margin:0px;
+      padding-top:20px;
+      width:140px;
+    }
+    #grid2 {
+      padding-left:20px;
+    }
+    @media(max-width:800px) {
+      h1 {
+        font-size:30px;
+        border-bottom:none;
+        text-align:left;
+      }
+      #grid ol {
+        border-right:none;
+      }
+      #grid {
+        display:block;
+      }
+    }
