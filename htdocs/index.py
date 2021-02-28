@@ -1,4 +1,4 @@
-#!C:/Users/Administrator/AppData/Local/Programs/Python/Python39-32/python.exe
+#!python
 print("content-type: text/html; charset=euc-kr")
 print()
 import cgi, os, view
