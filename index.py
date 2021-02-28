@@ -1,4 +1,4 @@
-#!python
+#!/usr/bin/env python
 print("content-type: text/html; charset=euc-kr")
 print()
 import cgi, os, view
